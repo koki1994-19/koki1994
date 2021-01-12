@@ -1,0 +1,1175 @@
+*{
+Box-sizing:border-box;}
+
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  font-family:'游明朝体','游ゴシック体', serif,sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color:#333;
+}
+
+/*headerです*/
+header{
+  height:1347px;
+  background:url("img/header@2x.png"),
+                      url("img/header_mask@2x.png");
+  background-size:cover;
+ width:100%;
+ margin:0 auto;
+ // background-color:grey;
+ text-align:center;
+}
+
+.menu{
+  position:relative;
+}
+
+.header{
+  display:flex;
+  justify-content: space-between;
+  max-width:1280px;
+  }
+
+  .menu-icon::before{
+  color: white;
+  font-size: 25px;
+  padding: 21px 0;
+  display:none;
+}
+
+.header_logo{
+  margin-left:90px;
+  margin-top:42px;
+}
+
+.container{
+  width:100%;
+  max-width:1280px;
+  margin:0 auto;
+}
+
+.header-title{
+  margin-top:157px;
+  font-size:30px;
+  color:#FFFFFF;
+  text-shadow:0 0 10px#94989D;
+  font-family:游明朝体,Demibold;
+  letter-spacing:3px;
+  line-height:55px;
+}
+
+.pc{
+  display:block;
+  margin:0 auto;
+}
+
+.sp{
+  display:none;
+}
+
+.header_nav > a{
+  color:#023C80;
+  font-size:12px;
+padding:17px 27px;
+width:180px;
+background-color:#FFFFFF;
+display:inline-block;
+  margin:41px 84px 0px 0px;
+}
+
+.sub_title{
+margin-top:60px;
+}
+
+/*水素とオゾンの説明*/
+.suiso_ozon{
+  text-align:center;
+}
+
+.content_suiso{
+  margin-top:337px;
+  padding:83px 86px 127px;
+   // max-width:1280px;
+   width:100%;
+   background-color:#E7F1F4;
+}
+
+.suiso_title > h1{
+  font-size:28px;
+  font-family:游明朝体;
+  font-weight:normal;
+  letter-spacing: 2.8px;
+  line-height:15px;
+}
+
+.suiso_title > p{
+  margin-top:10px;
+  margin-bottom:50px;
+  font-size:12px;
+  font-family:游ゴシック体;
+  color:#888888;
+  letter-spacing: 0.6px;
+  line-height: 20px;
+}
+
+/*slisde*/
+
+.suiso_slide1{
+  margin:0 auto;
+  background-color:#FFFFFF;
+  width:920px;
+  height:380px;
+  display:flex;
+}
+
+#slide1{
+  display:flex;
+}
+
+.suiso_text{
+  width:380px;
+  text-align:left;
+  margin-left:46px;
+  margin-top:51px;
+}
+
+.suiso_text1{
+  color:#3E3E3E;
+  font-size:21px;
+ font-family:游明朝体;
+ letter-spacing:1.05px;
+ line-height:15px;
+}
+
+.suiso_text2{
+  margin-top:21px;
+   font-family:游ゴシック体;
+   font-weight: normal;
+  font-size:14px;
+  letter-spacing:0.7px;
+  line-height: 20px;
+  color:#454141;
+}
+
+.suiso_text1 > span{
+  font-size:12px;
+  letter-spacing: 0.6px;
+  line-height: 20px;
+}
+
+.suiso_img img{
+  display:block;
+  margin-top:20px;
+}
+
+.ozon_img > img{
+  display: block;
+  object-fit:contain;
+  margin-top:57px;
+  width:500px;
+  height:300px;
+}
+
+.ozon_text11{
+  width:380px;
+  text-align:left;
+  margin-right:46px;
+  margin-top:51px;
+}
+
+.point{
+  margin-top:20%;
+}
+
+.point > img{
+  margin-left:50px;
+}
+
+.point_ozon{
+  margin-top:20%;
+}
+
+.point_ozon img{
+  margin-right:200px;
+}
+
+
+
+.point_ozon:hover{
+  transform:translateX(-15px) ;
+  transition-duration:1s;
+}
+
+.point:hover{
+transform:translateX(15px) ;
+transition-duration:1s;
+}
+
+
+
+/*オゾンのスライド*/
+.ozon_suiso{
+  margin:0 auto;
+  // max-width:1280px;
+  width:100%;
+  height:822px;
+  padding:85px 85px 162px;
+  text-align:center;
+}
+
+.ozon_text1{
+  color:#3E3E3E;
+  font-size:28px;
+  letter-spacing:2.8px;
+  line-height:15px;
+  font-family:游明朝体;
+}
+
+.ozon_text2{
+  margin-top:10px;
+  margin-bottom:67px;
+  color:#454141;
+  font-family:游ゴシック体;
+  font-size:14px;
+  letter-spacing: 0.7px;
+  line-height:20px;
+}
+
+.slider{
+  box-shadow:0 0 40px #AAAAAA29;
+}
+
+.slide01{
+  display:flex;
+  width:100%;
+  margin:0 auto;
+}
+
+.slide01 > img{
+  display:block;
+  object-fit: cover;
+}
+
+.hyou{
+  display:block;
+  margin-top:50px;
+  margin-left:60px;
+  width:450px;
+}
+
+.mekani{
+  display:block;
+}
+
+.ozonsan_text01{
+  width:485px;
+  margin-top:55px;
+  text-align: left;
+  margin:auto 0;
+}
+
+.ozonsan_text02{
+  margin-left:55px;
+}
+
+.ozonsan_text03{
+  margin-top:50px;
+}
+
+.ozonsan_text3{
+  margin-top:15px;
+  color:#454141;
+  font-size:8px;
+  font-family: 游ゴシック体;
+  line-height: 18px;
+}
+
+.ozonsan_text1{
+  color:#333333;
+  font-size:21px;
+  font-family: 游ゴシック体;
+  font-weight:bold;
+  letter-spacing: 1.05px;
+  line-height: 15px;
+  margin-bottom:20px;
+}
+
+.ozonsan_text2{
+  color:#454141;
+  font-size:14px;
+  font-family:游ゴシック体;
+  letter-spacing: 0.7px;
+  line-height: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*OHラジカルの説明*/
+.oh_rajical{
+  // width:1280px;
+  width:100%;
+  padding:90px 85px 153px;
+  background-image:url("img/OH@2x.png");
+  background-size:cover;
+margin:0 auto;
+}
+
+.oh_text{
+  text-align:center;
+}
+
+.oh_text1{
+  margin:0 auto;
+  color:#3E3E3E;
+  font-size:28px;
+  font-family:游明朝体;
+  letter-spacing:2.8px;
+  line-height:15px;
+}
+
+.oh_text2{
+  margin-top:10px;
+  color:#454141;
+  font-size:14px;
+  letter-spacing: 0.7px;
+  line-height: 20px;
+}
+
+.oh_ex{
+  width:1110px;
+  height:270px;
+  background: #FFFFFF;
+  margin:74px auto 0;
+  display:flex;
+}
+
+.oh_text3{
+  margin-left:65px;
+  margin-top:35px;
+  text-align: left;
+  width:535px;
+}
+
+.oh_text4{
+  color:#333333;
+  font-size:21px;
+  font-weight:bold;
+  font-family:游ゴシック体;
+  letter-spacing: 1.05px;
+  line-height: 15px;
+}
+
+.oh_text5{
+  margin-top:12px;
+  color:#454141;
+  font-size:14px;
+  letter-spacing: 0.7px;
+  line-height: 20px;
+  font-family: 游ゴシック体;
+}
+
+.oh_ex2{
+  width:1110px;
+  height:270px;
+  background: #FFFFFF;
+  margin:67px auto 0;
+  display:flex;
+}
+
+.oh_text6{
+  text-align: left;
+  width:445px;
+  margin-top:71px;
+  margin-right:125px;
+  margin-left:65px;
+}
+
+.oh_text7{
+  color:#333333;
+  font-size:21px;
+  font-weight:bold;
+  font-family:游ゴシック体;
+  letter-spacing: 1.05px;
+  line-height: 15px;
+}
+
+.oh_text8{
+  margin-top:12px;
+  color:#454141;
+  font-size:14px;
+  letter-spacing: 0.7px;
+  line-height: 20px;
+  font-family: 游ゴシック体;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*製品認定制度*/
+.nintei{
+  // width:1280px;
+  width:100%;
+  margin:0 auto;
+  padding:88px 129px 84px 86px;
+}
+
+.nintei_text{
+  text-align: center;
+}
+
+.nintei_text1{
+  color:#3E3E3E;
+  font-size:28px;
+  font-family:游明朝体;
+  font-weight:Demibold;
+  letter-spacing:2.8px;
+  line-height:15px;
+}
+
+.nintei_text2{
+  margin-top:10px;
+  color:#454141;
+  font-size:14px;
+  letter-spacing: 0.7px;
+  line-height: 20px;
+}
+
+.nintei2{
+  width:561px;
+  text-align: center;
+  margin:40px auto 70px;
+}
+
+.nintei_text3{
+  font-size:14px;
+  color:#454141;
+  letter-spacing: 0.7px;
+  line-height: 20px;
+}
+
+.nintei_content{
+  display:flex;
+  margin:0 auto;
+  width:1110px;
+  height:270px;
+  background:white;
+  box-shadow: 0 0 20px #CCCCCC29;
+}
+
+.nintei_text4{
+  text-align: left;
+  margin-left:51px;
+  margin-top:30px;
+}
+
+.nintei_text5{
+  font-size:21px;
+  font-family: 游ゴシック体;
+  font-weight:bold;
+  letter-spacing: 1.05px;
+  line-height: 15px;
+  color:#333333;
+}
+
+.nintei_text5 > span{
+  font-size:12px;
+  letter-spacing: 0.6px;
+  margin-left:20px;
+}
+
+.nintei_text6{
+  width:539px;
+  margin-top:25px;
+  font-size:14px;
+  font-family:游ゴシック体;
+  letter-spacing: 0.7px;
+  line-height: 20px;
+  color:#454141;
+}
+
+.corp{
+  margin:64px auto 40px;
+  width:540px;
+  height:180px;
+  background:#E7F1F4;
+  box-shadow: 0 0 20px #CCCCCC29;
+  text-align:left;
+  position:relative;
+}
+
+.corp_text{
+  width:400px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translateY(-50%) translateX(-50%);
+}
+
+.corp_text1{
+  font-size:12px;
+  font-family:游ゴシック体;
+  font-weight:bold;
+  letter-spacing: 0.6px;
+  line-height: 20px;
+  color:#333333;
+}
+
+
+.corp_text2{
+  margin-top:10px;
+  color:#454141;
+  font-size:14px;
+  letter-spacing: 0.7px;
+  line-height: 20px;
+  font-family:游ゴシック体;
+}
+
+/*理事からのご挨拶*/
+.riji{
+  background-color:#023C80;
+  // width:1280px;
+  width:100%;
+  margin:0 auto;
+  padding:85px 200px 87px;
+}
+
+.riji_text{
+  text-align: center;
+  color:#FFFFFF;
+}
+
+.riji_text1{
+    font-size:24px;
+    font-weight:Demibold;
+    font-family:游明朝体;
+    letter-spacing: 2.4px;
+    line-height: 15px;
+    max-width:880px;
+    margin:0 auto;
+}
+
+.riji_text2{
+  margin:10px auto 0;
+  font-size:12px;
+  font-family: 游ゴシック体;
+  letter-spacing: 0.6px;
+  line-height: 20px;
+  max-width:880px;
+}
+
+.riji_text3{
+  margin:37px auto 0;
+font-size:20px;
+font-family: 游ゴシック体;
+font-weight:bold;
+letter-spacing: 1px;
+line-height: 15px;
+max-width:880px;
+}
+
+.riji_text4{
+  max-width:880px;
+  text-align: left;
+  margin:24px auto 0;
+  font-size:12px;
+  letter-spacing:0.6px;
+  line-height: 20px;
+  font-family: 游ゴシック体;
+}
+
+.riji_text5{
+  margin:40px auto 0;
+  font-size:16px;
+  letter-spacing: 1.6px;
+  line-height: 15px;
+  font-family: 游明朝体;
+}
+
+/*研究会概要*/
+.kenkyu{
+  margin:0 auto;
+  width:100%;
+  padding:85px 0 126px;
+}
+
+.kenkyu_text{
+  text-align: center;
+}
+
+.kenkyu_text1{
+  color:#3E3E3E;
+  font-size:28px;
+  letter-spacing: 2.8px;
+  line-height: 15px;
+  font-family: 游明朝体;
+}
+
+.kenkyu_text2{
+  margin-top:10px;
+  color:#454141;
+  font-size:14px;
+  letter-spacing: 0.7px;
+  line-height: 20px;
+  font-family: 游ゴシック体;
+}
+
+.gaiyou{
+  max-width:730px;
+  margin:35px auto 0px;
+  border-top:2px solid #999999;
+}
+
+table{
+  width:100%;
+}
+
+ th, td{
+   width:730px;
+  border-bottom:1px solid #DADADA;
+}
+
+th{
+  color:#333333;
+  font-size:12px;
+  letter-spacing: 0.6px;
+  line-height: 20px;
+  font-weight:bold;
+  vertical-align: top;
+  padding:10px;
+  width:20%;
+}
+
+td{
+  color:#454141;
+  font-size:14px;
+  letter-spacing: 0.7px;
+  line-height: 20px;
+  padding: 10px;
+  width:80%;
+}
+
+.info_gaiyou{
+  text-align: center;
+  margin-top:35px;
+  color:#333333;
+  font-size:12px;
+  letter-spacing: 0.6px;
+  line-height: 20px;
+  font-family: 游ゴシック体;
+  font-weight:bold;
+}
+
+.info_gaiyou01{
+  text-align: center;
+  color:#333333;
+  font-size:12px;
+  letter-spacing: 0.6px;
+  line-height: 20px;
+  font-family: 游ゴシック体;
+}
+
+/*会員になりませんか？*/
+.members{
+  // max-width:1280px;
+  width:100%;
+  // margin:0 auto;
+  padding:40px 85px;
+  background:#E7F1F4;
+}
+
+.member_main{
+  // max-width:1110px;
+  width:100%;
+  margin:0 auto;
+  background:#023C80;
+  height:425px;
+  padding:84px 0 74px 0;
+  text-align:center;
+  color:#FFFFFF;
+}
+
+.member_text1{
+  font-size:24px;
+  font-family:游明朝体;
+  letter-spacing: 2.4px;
+  line-height: 15px;
+}
+
+.member_text2{
+  font-size:12px;
+  font-family: 游ゴシック体;
+  letter-spacing: 0.6px;
+  line-height: 20px;
+  margin-top:10px;
+}
+
+.member_text3{
+  margin:0 auto;
+  text-align: left;
+  max-width:680px;
+  font-size:14px;
+  font-family: 游ゴシック体;
+  letter-spacing: 0.7px;
+  line-height: 20px;
+  margin-top:28px;
+}
+
+.member_text3 > span{
+  text-decoration: underline;
+}
+
+/*会員グッズ*/
+.goods{
+  // max-width:1280px;
+  width:100%;
+  margin:0 auto;
+  padding:85px 0 75px 0;
+}
+
+.goods_text{
+  text-align: center;
+}
+
+.goods_text1{
+  color:#3E3E3E;
+  font-size:28px;
+  font-family:游明朝体;
+  letter-spacing: 2.8px;
+  line-height: 15px;
+}
+
+.goods_text2{
+  color:#454141;
+  font-size:14px;
+  font-family: 游ゴシック体;
+  letter-spacing: 0.7px;
+  line-height: 20px;
+  margin-top: 40px;
+}
+
+.goods_text2 > span{
+  text-decoration: underline;
+}
+
+
+
+.goods_img > img{
+  margin:40px auto 0;
+}
+
+/*footer*/
+footer{
+  text-align: center;
+  height:291px;
+  margin:0 auto;
+  // max-width:1280px;
+  width:100%;
+  background-color:#3A3A3A;
+}
+
+.footer-logo{
+  margin-top:63px;
+}
+
+.acces{
+  font-family:'游ゴシック';
+  margin-top:24px;
+  color:#FFFFFF;
+  font-size:12px;
+  letter-spacing:0.6px;
+  line-height:20px;
+}
+
+.copy_right{
+  margin-top:102px;
+  margin-bottom:25px;
+  color:#FFFFFF;
+font-family:"游明朝体";
+font-size:10px;
+}
+
+
+
+@media (max-width:480px){
+      .header-title{
+        margin:0 auto;
+        width:306px;
+        font-size:20px;
+        text-align: center;
+        letter-spacing:2px;
+        line-height: 42px
+      }
+
+      .header_nav{
+        display:none;
+      }
+
+      .header_logo{
+        margin:40px 0 27px 40px;
+      }
+
+      .header_logo > img{
+        object-fit: cover;
+        width:160px;
+        height:40px;
+      }
+
+      .header-title{
+        margin-top:50px;
+      }
+
+      .menu-icon::before{
+        display:block;
+        position:absolute;
+        right:27px;
+        top:28px;
+      }
+
+      header{
+        height:1595px;
+      }
+
+      .pc{
+        display:none;
+      }
+
+      .sp{
+        display:block;
+        margin:-40px auto 0;
+      }
+
+      .content_suiso{
+        margin-top:500px;
+      }
+
+      .suiso_title > h1{
+        font-size:22px;
+      }
+
+      .suiso_title > p{
+        font-size:12px;
+      }
+
+      .goods_text1{
+        font-size:22px;
+        margin-bottom:40px;
+      }
+
+      .goods_text2{
+        font-size:12px;
+        width:300px;
+        text-align: left;
+        margin:0 auto;
+      }
+
+      .members{
+        padding:27px 14px 13px;
+      }
+
+      .member_text1{
+        font-size:20px;
+        width:315px;
+        margin:0 auto;
+        line-height: 20px;
+      }
+
+        .member_text2{
+          font-size:12px;
+          }
+
+          .member_text3{
+            font-size:12px;
+            width:254px;
+            margin:30px auto 0;
+            line-height:20px;
+          }
+
+      .sp_member{
+        margin:0 auto 20px;
+        display:block;
+      }
+
+      .member_main{
+        height:500px;
+        padding:36px 40px;
+      }
+
+      .info_gaiyou{
+        width:220px;
+        margin:20px auto;
+      }
+
+      .info_gaiyou01{
+        width:342px;
+        margin:20px auto 0;
+        text-align: left;
+      }
+
+      th{
+        font-size:10px;
+      }
+      td{
+        font-size:11px;
+      }
+
+      .kenkyu_text2{
+        font-size:14px;
+      }
+
+      .kenkyu_text1{
+        font-size:22px;
+      }
+
+    /*footer*/
+    .acces{
+      font-size:12px;
+    }
+    .copy_right{
+      font-size:10px;
+    }
+    .footer-logo{
+      width:216px;
+      height:40px;
+    }
+
+  .riji{
+    padding:60px 36px 74px;
+  }
+
+  .riji_text5{
+    font-size:12px;
+  }
+
+  .riji_text4{
+    font-size:12px;
+    line-height:23px;
+  }
+
+  .riji_text3{
+    width:300px;
+    font-size:20px;
+    line-height: 28px;
+    letter-spacing:1px;
+  }
+
+  .riji_text2{
+    font-size:12px;
+  }
+
+.riji_text1{
+  font-size:22px;
+  letter-spacing: 2.2px;
+  line-height: 15px;
+}
+
+.nintei{
+  padding:50px 36px 20px;
+  height:1250px;
+}
+
+.corp{
+  width:100%;
+  bottom:-350px;
+}
+
+.corp_text{
+  // width:360px;
+  width:100%;
+  margin-left:25px;
+}
+
+.corp_text2{
+  font-size:12px;
+  line-height:27px;
+}
+
+.nintei_img > img{
+  width:300px;
+  height:240px;
+}
+
+.nintei_content{
+  display:block;
+  flex-direction: column;
+  width:350px;
+  margin:0 auto;
+}
+
+.nintei_text1{
+  font-size:22px;
+  line-height:32px;
+}
+
+.nintei_text3{
+  width:300px;
+  text-align: left;
+  line-height: 24px;
+  font-size:12px;
+  margin-top:-10px;
+}
+
+.nintei_text4{
+  margin:0;
+}
+
+.nintei_text5{
+  margin-top:30px;
+}
+
+.nintei_text6{
+  width:300px;
+  margin-top:40px;
+  font-size:12px;
+  line-height: 24px;
+}
+
+.nintei_text7{
+  width:300px;
+  margin-top:20px;
+  font-size:12px;
+  font-family:游ゴシック体;
+  letter-spacing: 0.7px;
+  line-height: 24px;
+  color:#454141;
+}
+
+.nintei_text5 > span{
+  display:block;
+  margin:10px 0 0;
+}
+
+.oh_rajical{
+  padding:57px 34px 88px;
+  height:1500px;
+}
+
+.oh_text1{
+  text-align: center;
+  font-size:22px;
+  line-height: 28px;
+  letter-spacing: 2.2px;
+}
+
+.oh_ex{
+  margin:100px auto 0;
+  width:100%;
+  flex-direction: column;
+  height:630px;
+}
+
+.oh_ex2{
+  width:100%;
+  margin:100px auto 0;
+  flex-direction: column;
+  height:350px;
+}
+
+.oh_text3{
+  margin:0;
+  width:100%;
+  padding:20px 32px;
+}
+
+.oh_text6{
+  width:100%;
+  margin:0;
+  padding:30px 32px;
+  height:250px;
+}
+
+.oh_text4{
+  font-size:21px;
+}
+
+.oh_text5{
+font-size:12px;
+line-height: 24px;
+}
+
+.oh_text7{
+  font-size:21px;
+}
+
+.oh_text8{
+  font-size:12px;
+  line-height: 24px;
+  margin-right:0;
+}
+
+.oh_img > img{
+  width:100%;
+}
+
+.content_suiso{
+  padding:60px 36px;
+  height:auto;
+}
+
+.ozon_suiso{
+  padding:60px 36px;
+  height:auto;
+}
+
+.ozon_text1{
+  font-size:22px;
+}
+
+.ozon_text2{
+  font-size:12px;
+}
+
+.bx-wrapper{
+  // display:none;
+}
+
+.sp_img_1{
+  margin-right:50px;
+  margin-left:-44px;
+}
+
+
+
+
+
+}
